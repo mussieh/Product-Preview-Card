@@ -1,0 +1,23 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 425px (Large Phones) */
+/**************************/
+@media (max-width: 26.5625em) {
+    html {
+        font-size: 50%;
+    }
+
+    .img-chanel {
+        height: 24rem;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .section-product-review {
+        display: flex;
+        flex-direction: column;
+        width: 34.6rem;
+        height: 100%;
+    }
+}
